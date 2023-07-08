@@ -1,0 +1,19 @@
+Package: sighr
+Title: Side information guided high-dimensional regression
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Christopher", "McMahan", ,"mcmaha2@clemson.edu", role = c("aut")),
+      person("Yu-Bo", "Wang", ,"yubow@clemson.edu", role = c("aut","cre")))
+Maintainer: Yu-Bo Wang <yubow@clemson.edu>
+Description: A novel Bayesian regression framework that can be used to complete variable selection in high dimensional settings. Unlike traditional techniques, the proposed approach can leverage side information to inform about the sparsity structure of the regression coefficients.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3.9000
+Imports: 
+    BayesLogit (>= 2.1),
+    coda (>= 0.19.4),
+    MASS (>= 7.3.58.1),
+    Matrix (>= 1.5.1),
+    parallel (>= 4.2.2),
+    tictoc (>= 1.2)
